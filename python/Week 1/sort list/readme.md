@@ -2,7 +2,7 @@ Problem Link: https://leetcode.com/problems/sort-list/
 
 ## Solution
 
-I solved by using merge sort algorithm to sort the linked list, the merge sort algorithm has 3 main steps:
+I solved this probelm by using merge sort algorithm to sort the linked list, the merge sort algorithm has 3 main steps:
 
 1. split the list into 2 havles, left half and right half.
 2. recursively sort left and right halves.
