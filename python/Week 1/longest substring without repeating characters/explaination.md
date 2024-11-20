@@ -9,6 +9,6 @@ Problem Link: https://leetcode.com/problems/longest-substring-without-repeating-
 - To detect repeating characters in the current window, a `set` data structure is used. 
 
 - Before adding a charachter to the window we check if it's in the `set`: 
-    -- If it isn't we add it to the `set` and expand the window and update `maxLen` if
+    - If it isn't we add it to the `set` and expand the window and update `maxLen` if
        the new window size is greater than `maxLen`
-    -- If it's in the `set` we remove it and shrink the window
+    - If it's in the `set` we remove it and shrink the window
