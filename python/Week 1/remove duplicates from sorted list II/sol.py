@@ -23,7 +23,7 @@ class Solution:
                 pre = pre.next
                 
             # curr isn't the node next to pre
-            # keep pre where it's now and skip all the nodes from pre to curr
+            # keep pre where it's now and skip all the nodes between pre and curr
             # because these are repeated values.
             else:
                 pre.next = curr.next
